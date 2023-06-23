@@ -2,9 +2,9 @@
 const myVar = "value3";
 
 function outerFunction() {
-    // const myVar = "value2";
+    const myVar = "value2";
     function InnerFunction(){
-        // const myVar = "value1";
+        const myVar = "value1";
         console.log(myVar);
     }
     InnerFunction();
